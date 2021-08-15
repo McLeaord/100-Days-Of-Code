@@ -1,5 +1,6 @@
 import math
 
+print()
 print("   ****** welcome TO Euclidean Caliculator *****  ")
 print()
 
