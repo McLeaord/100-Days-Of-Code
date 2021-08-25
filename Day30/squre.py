@@ -95,15 +95,5 @@ def square():
         pub.publish(m)
         rate.sleep()
 
-
-
-
-        
-
-
-
-
-
-
 if __name__=='__main__':
     square()
