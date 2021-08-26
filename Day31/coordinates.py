@@ -3,7 +3,7 @@ from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose
 import math
 
-x=5
+x=0
 y=0
 yaw=0
 
@@ -38,7 +38,7 @@ def moving_straight():
         vel_publisher.publish(vel_msg)
         distance_moved=abs(math.sqrt((x-a)**2)+((y-b)**2))
         print(distance_moved)
-        print(x,"\t",y)
+        print(x,y)
         if distance_moved>distance:
             rospy.loginfo("REACHED")
             break
