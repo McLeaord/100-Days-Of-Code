@@ -21,7 +21,6 @@ def moving_straight():
     vel_publisher=rospy.Publisher('/turtle1/cmd_vel',Twist,queue_size=10)
     a=x
     b=y
-    print(a,b)
     speed=float(1)
     distance=float(5)
     forward=(True)
